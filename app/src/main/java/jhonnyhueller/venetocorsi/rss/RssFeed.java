@@ -30,7 +30,7 @@ public class RssFeed implements Parcelable {
 	private ArrayList<RssItem> rssItems;
 	
 	public RssFeed() {
-		rssItems = new ArrayList<RssItem>();
+		rssItems = new ArrayList<>();
 	}
 	
 	public RssFeed(Parcel source) {

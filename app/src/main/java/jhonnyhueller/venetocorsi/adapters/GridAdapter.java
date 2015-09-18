@@ -27,8 +27,7 @@ public class GridAdapter extends RecyclerView.Adapter<CourseCell>{
     @Override
     public CourseCell onCreateViewHolder(ViewGroup parent, int viewType) {
         View v= LayoutInflater.from(parent.getContext()).inflate(R.layout.course_cell,parent,false);
-        CourseCell cell=new CourseCell(v);
-        return cell;
+        return new CourseCell(v);
     }
 
     @Override
